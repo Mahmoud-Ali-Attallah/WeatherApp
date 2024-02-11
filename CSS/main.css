@@ -1,0 +1,73 @@
+header{
+    min-height: 100vh !important;
+}
+nav{
+    height: 130px !important;
+}
+.icooo{
+    font-size: 12px !important;
+}
+.imagee{
+    width: fit-content !important;
+}
+.fghf{
+    width: 100% !important;
+}
+.hvhjvj{
+    width: 70px !important;
+    padding: 0 !important;
+}
+section{
+    background-image: url(../sss1.png) ;
+    background-position:top;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.search{
+    position: relative !important;
+    padding-block: 50px !important;
+}
+.image{
+    width: 120% !important;
+
+}
+button{
+    position: absolute !important;
+    top:calc(50% - 45px) !important;
+    left: calc(100% - 110px) !important;
+    height: 60px;
+    width: 100px;
+}
+.Temperature{
+    font-size: 90px !important;
+}
+.icoTemperature{
+    height: fit-content !important;
+}
+::placeholder {
+    color: white !important;
+    opacity: 0.5 !important; 
+  }
+  input{
+    border: none !important;
+  }
+
+.one{
+    background-color:#2D303D !important ;
+}
+.two{
+    background-color: #323544 !important;
+}
+.day1{
+    background-color: #222530 !important;
+}
+
+
+@media screen and (min-width :1200px){
+    .Table{
+        display: none !important;
+    }
+}
+
+
+

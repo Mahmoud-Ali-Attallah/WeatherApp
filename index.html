@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="CSS/all.min.css">
+       <link rel="stylesheet" href="CSS/bootstrap.min.css">
+       <link rel="stylesheet" href="CSS/main.css">
+       <title>Weather</title>
+    </head>
+    <body>
+      <header class=" bg-dark ">
+        <div class="container mb-4">
+          
+          <nav class="navbar navbar-expand-lg bg-dark navbar-dark " >
+            <div class="container  ">
+              <div class="imagee d-flex flex-row justify-content-center ">
+                <a class="navbar-brand d-block hvhjvj me-2" href="#home"><img src="sss2 (1).png" class="fghf" alt=""></a>
+                <div class="jghjg d-flex flex-column justify-content-center   bg-dark">
+                  <h1 class="text-light d-block text-decoration-none fs-6" href="">Weather</h1>
+                  <a class="text-light d-block text-decoration-none icooo" href="">tagline goes here</a>
+                  
+                </div>
+              </div>
+                <button id="btnnn" class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item border border-1 rounded-pill px-2 py-0 mx-3 border-primary ">
+                            <a class="nav-link active text-primary" aria-current="page" href="#home">HOME
+                            </a>
+                        </li>
+                        <li class="nav-item  border border-1 rounded-pill px-2 py-0 mx-3 border-dark  this  ">
+                            <a class="nav-link active that " aria-current="page" href="#home">News
+                            </a>
+                        </li>
+                        <li class="nav-item  border border-1 rounded-pill px-2 py-0 mx-3 border-dark  this  ">
+                            <a class="nav-link active that" aria-current="page" href="#home">Live Camers
+                            </a>
+                        </li>
+                        <li class="nav-item  border border-1 rounded-pill px-2 py-0 mx-3 border-dark  this  ">
+                            <a class="nav-link active that" aria-current="page" href="#home">Photo
+                            </a>
+                        </li>
+                        <li class="nav-item  border border-1 rounded-pill px-2 py-0 mx-3 border-dark  this  ">
+                            <a class="nav-link active that" aria-current="page" href="#home">Contact
+                            </a>
+                        </li>
+                 
+                            
+                          </ul> 
+                      </div>
+            </div>  
+        </nav>
+        <ul class="hj Table list-group text-center bg-dark d-none " id="table">
+          <a href="" class="text-decoration-none "><li class="list-group-item list-group-item-action list-group-item-dark text-primary">Home</li></a>
+          <a href="" class="text-decoration-none "><li class="list-group-item list-group-item-action list-group-item-dark text-light">News</li></a>
+          <a href="" class="text-decoration-none "><li class="list-group-item list-group-item-action list-group-item-dark text-light">Live Camers</li></a>
+          <a href="" class="text-decoration-none "><li class="list-group-item list-group-item-action list-group-item-dark text-light">Photo</li></a>
+          <a href="" class="text-decoration-none "><li class="list-group-item list-group-item-action list-group-item-dark text-light">Content</li></a>
+         
+         
+        </ul>
+        </div>
+       
+  <section class="bg-dark ">
+      <div class="container">
+  
+  <div class="contant">
+    <div class="search d-flex flex-row ">
+      <input id="input" type="search" class="w-100 form-control mb-4 p-4 bg-dark text-light rounded-pill " placeholder="find Your Location..." name="nameOfCountery">
+      <button class="btn btn-primary rounded-pill my-1" >Find</button>
+      </div>
+      
+        <div class="row gx-0   ">
+          <div class="col-md-4 text-light ">
+          
+              <div class="one  d-flex flex-row justify-content-between align-items-center px-2 py-3  ">
+                <p class="day my-0 " id="day"></p>
+                <p class="my-0 " id="month"></p>
+              </div>
+              <div class="two bg-dark-subtle ">
+                <div class="container">
+                  <p class="fs-2 pt-2" id="nameOfCountry"></p>
+                  <div class="jh d-flex flex-row align-items-center justify-content-between mx-3  ">
+                  <p class="Temperature " ><span id="Temperature"></span>&deg;C</p>
+                  <div class=" ">  <img class="icoTemperature image " id="icoTemperature" src="" ></div>
+                  </div>
+                  <p id="status" class="text-primary"></p>
+                  <div class="hkjhkj d-flex flex-row justify-content-start">
+                    <p class="me-4"><i class="fa-solid fa-umbrella "></i> 20 %</p>
+                    <p class="me-4"><i class="fa-solid fa-wind"></i>18 km/hr</p>
+                    <p class="me-4"><i class="fa-solid fa-compass"></i>    East</p>
+                 
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="col-md-4 text-light text-center day1 ">
+            <p class="bg-secondary py-3  day day2 bg-dark" id="day"></p>
+            <img class="ico my-2" id="ico" src="" alt="">
+            <p ><span class="deg1 my-4" id="deg1"></span>&deg;C</p>
+            <p ><span class="deg2 my-4" id="deg2"></span> &deg;C</p>
+            <p class="text my-4 text-primary" id="text"></p>
+          </div>
+          <div class="col-md-4 text-light text-center two ">
+            <p class="bg-secondary py-3 day one" id="day"></p>
+            <img class="ico my-2" id="ico" src="" alt="">
+            <p ><span class="deg1 my-4" id="deg1"></span>&deg;C</p>
+            <p ><span  class="deg2 my-4" id="deg2"></span> &deg;C</p>
+            <p class="text my-4 text-primary" id="text"></p>
+          </div>
+  </div>
+  
+  </div>
+  
+      </div>
+  </section>
+      </header>
+<script src="./JS/jquery-3.7.1.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/main.js"></script>
+    </body>
+</html>
