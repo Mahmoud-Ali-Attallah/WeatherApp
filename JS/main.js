@@ -27,7 +27,7 @@ inpu.addEventListener("input" , function(e){
 })
 async function getdaat (x){
     if(data.length > 2 ) {
-        let son =  await fetch(`http://api.weatherapi.com/v1/forecast.json?key=65b774a0ea414080b28142239241101&q=${x}&days=3`) ;
+        let son =  await fetch(`HTTPS://api.weatherapi.com/v1/forecast.json?key=65b774a0ea414080b28142239241101&q=${x}&days=3`) ;
     let DATA = await son.json() ; 
     await display(DATA) ;
 
